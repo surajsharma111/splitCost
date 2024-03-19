@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --main-bg-color: rgb(215, 213, 213);
+}
+body{
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wraper{
+    
+    width: 50vw;
+    border: 1px solid gray;
+    padding: 20px 0;
+  
+}
+.split-heading h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    
+}
+.unsettled-section{
+   background-color: var(--main-bg-color);
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+   display: flex;
+   justify-content: center;
+   border-radius:5px ;
+    
+}
+.unsettled-section>div:nth-child(1) h4{
+    font-size: 12px;
+    font-weight: 600;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  
+}
+.unsettled-section>div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    gap: 54%;
+    height: 58px;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+}
+.unsettled-section>div:nth-child(2)  h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.settle-button{
+    height:40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(72, 0, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.users{
+   
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.users>div, .user span{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color:var(--main-bg-color) ;
+}
+
+.addnew-section form{
+    width: 80%;
+    margin: 0px auto;
+   
+}
+form>div label{
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+form>div{
+
+    width: 94%;
+    margin: 0px auto;
+}
+form>div:nth-child(1) input{
+    width: 60%;
+    padding: 8px;
+   border: none;
+   background-color: white;
+   margin-top: 5px;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+     gap:15px;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    padding:10px 0;
+   
+}
+/*
+.addnew-button{
+    height:40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}
+.enter-amount{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    padding: 5px;
+}
+.enter-amount input{
+    width: 100%;
+    padding: 8px;
+   border: none;
+   background-color: white;
+   margin-top: 5px;
+}
+*/
+.enter-amount{
+
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    padding: 5px;
+}
+.enter-amount>div{
+   
+    width: 40%;
+
+}
+.enter-amount div input{
+    width: 100%;
+    padding: 8px;
+   border: none;
+   background-color: white;
+   margin-top: 5px;
+}
+.addnew-button{
+    height:40px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    margin-top: 10px;
+    background-color: black;
+}
+.shopping-list{
+    
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.shopping-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.shopping-list ul>div{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--main-bg-color);
+    
+}
+.shopping-list div h4{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.shopping-list div p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.shopping-list>ul>div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.shopping-list button{
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left: 45%;
+    font-size: 14px;;
+    font-weight: 600;
+    margin-top: 8px;
+}
